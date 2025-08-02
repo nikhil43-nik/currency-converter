@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Currency Converter Pro</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.9.3/tsparticles.bundle.min.js"></script>
+</head>
+<body>
+  <div id="tsparticles"></div>
+
+  <div class="container">
+    <h1 class="title">🌍 Currency Converting Hub </h1>
+    <div class="card">
+      <div class="currency-input">
+        <label for="fromCurrency">From:</label>
+        <select id="fromCurrency"></select>
+      </div>
+
+      <div class="currency-input">
+        <label for="toCurrency">To:</label>
+        <select id="toCurrency"></select>
+      </div>
+
+      <input type="number" id="amount" placeholder="Enter amount" />
+
+      <button id="convertBtn">Convert</button>
+      <div class="result-card" id="result">Converted amount will appear here 💸</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
